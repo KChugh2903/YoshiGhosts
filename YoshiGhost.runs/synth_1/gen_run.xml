@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1713077608">
+  <File Type="PA-TCL" Name="display_top.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="display_top_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="display_top_reports.tcl"/>
+  <File Type="RDS-RDS" Name="display_top.vds"/>
+  <File Type="RDS-UTIL" Name="display_top_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="display_top_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="display_top.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="display_top_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="display_top_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/YoshiGhost/background_ghost_rom.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Verilog/1100/YoshiGhost/background_ghost_rom.v"/>
+        <Attr Name="ImportTime" Val="1712986940"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/YoshiGhost/binary2bcd.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Verilog/1100/YoshiGhost/binary2bcd.v"/>
+        <Attr Name="ImportTime" Val="1712988454"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/YoshiGhost/blocks_rom.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Verilog/1100/YoshiGhost/blocks_rom.v"/>
+        <Attr Name="ImportTime" Val="1712988478"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/YoshiGhost/eggs.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Verilog/1100/YoshiGhost/eggs.v"/>
+        <Attr Name="ImportTime" Val="1713075541"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/YoshiGhost/eggs_rom.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Verilog/1100/YoshiGhost/eggs_rom.v"/>
+        <Attr Name="ImportTime" Val="1712991468"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/YoshiGhost/enemy_collision.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Verilog/1100/YoshiGhost/enemy_collision.v"/>
+        <Attr Name="ImportTime" Val="1712991812"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/YoshiGhost/game_logo_display.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Verilog/1100/YoshiGhost/game_logo_display.v"/>
+        <Attr Name="ImportTime" Val="1712991919"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/YoshiGhost/game_logo_rom.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Verilog/1100/YoshiGhost/game_logo_rom.v"/>
+        <Attr Name="ImportTime" Val="1712992436"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/YoshiGhost/game_state_machine.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Verilog/1100/YoshiGhost/game_state_machine.v"/>
+        <Attr Name="ImportTime" Val="1712992527"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/YoshiGhost/gameover_display.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Verilog/1100/YoshiGhost/gameover_display.v"/>
+        <Attr Name="ImportTime" Val="1712992621"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/YoshiGhost/gameover_rom.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Verilog/1100/YoshiGhost/gameover_rom.v"/>
+        <Attr Name="ImportTime" Val="1712992643"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/YoshiGhost/ghost_bottom.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Verilog/1100/YoshiGhost/ghost_bottom.v"/>
+        <Attr Name="ImportTime" Val="1713067860"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/YoshiGhost/ghost_crazy.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Verilog/1100/YoshiGhost/ghost_crazy.v"/>
+        <Attr Name="ImportTime" Val="1713068273"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/YoshiGhost/ghost_crazy_rom.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Verilog/1100/YoshiGhost/ghost_crazy_rom.v"/>
+        <Attr Name="ImportTime" Val="1713067395"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/YoshiGhost/ghost_normal_rom.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Verilog/1100/YoshiGhost/ghost_normal_rom.v"/>
+        <Attr Name="ImportTime" Val="1713068287"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/YoshiGhost/ghost_top.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Verilog/1100/YoshiGhost/ghost_top.v"/>
+        <Attr Name="ImportTime" Val="1713068565"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/YoshiGhost/grounded.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Verilog/1100/YoshiGhost/grounded.v"/>
+        <Attr Name="ImportTime" Val="1713074666"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/YoshiGhost/hearts_display.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Verilog/1100/YoshiGhost/hearts_display.v"/>
+        <Attr Name="ImportTime" Val="1713071909"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/YoshiGhost/hearts_rom.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Verilog/1100/YoshiGhost/hearts_rom.v"/>
+        <Attr Name="ImportTime" Val="1713071602"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/YoshiGhost/nes_controller.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Verilog/1100/YoshiGhost/nes_controller.v"/>
+        <Attr Name="ImportTime" Val="1712987837"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/YoshiGhost/numbers_rom.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Verilog/1100/YoshiGhost/numbers_rom.v"/>
+        <Attr Name="ImportTime" Val="1713071943"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/YoshiGhost/platforms.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Verilog/1100/YoshiGhost/platforms.v"/>
+        <Attr Name="ImportTime" Val="1713072253"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/YoshiGhost/score_display.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Verilog/1100/YoshiGhost/score_display.v"/>
+        <Attr Name="ImportTime" Val="1713072735"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/YoshiGhost/vga_sync.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Verilog/1100/YoshiGhost/vga_sync.v"/>
+        <Attr Name="ImportTime" Val="1713074666"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/YoshiGhost/walls_rom.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Verilog/1100/YoshiGhost/walls_rom.v"/>
+        <Attr Name="ImportTime" Val="1713073099"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/YoshiGhost/yoshi_ghost_rom.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Verilog/1100/YoshiGhost/yoshi_ghost_rom.v"/>
+        <Attr Name="ImportTime" Val="1713073109"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/YoshiGhost/yoshi_rom.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Verilog/1100/YoshiGhost/yoshi_rom.v"/>
+        <Attr Name="ImportTime" Val="1713073114"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/YoshiGhost/yoshi_sprite.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Verilog/1100/YoshiGhost/yoshi_sprite.v"/>
+        <Attr Name="ImportTime" Val="1713075758"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/YoshiGhost/display_top.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Verilog/1100/YoshiGhost/display_top.v"/>
+        <Attr Name="ImportTime" Val="1712990058"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="display_top"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/YoshiGhost/basys3.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Verilog/1100/YoshiGhost/basys3.xdc"/>
+        <Attr Name="ImportTime" Val="1712987020"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>
